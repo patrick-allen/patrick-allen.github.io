@@ -90,46 +90,4 @@ div.foot{
 	border-top: thin solid black;
 }
 
-.profile-pic {
-    margin-left: 10px;
-    float: right;
-    width: 328px;
-    height: auto;
-}
-
-/* Responsive adjustments for mobile devices */
-@media (max-width: 768px) {
-    body {
-        /* Reduce those massive margins to something small */
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .nav {
-        /* Stack the name and the menu vertically */
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .header {
-        /* Remove fixed height so it can grow with the stacked content */
-        height: auto;
-        padding-bottom: 10px;
-    }
-
-    .nav li {
-        /* Give the links more room to be tapped with a finger */
-        padding: 10px;
-    }
-
-    img {
-        /* Make the image stay within the screen and stop floating */
-        float: none !important;
-        display: block;
-        margin: 0 auto 20px auto !important;
-        max-width: 100%;
-        height: auto !important; /* Maintains aspect ratio */
-    }
-}
-
 
